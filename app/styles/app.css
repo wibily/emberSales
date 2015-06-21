@@ -1,0 +1,12 @@
+.Header{
+  height:90px;
+  background-color: #f4f4f4;
+  border: 1px #e8e4e6 solid;
+  border-width: 1px 0 1px;
+  padding-top: 5px;
+  width: 100%
+}
+
+.Userbar {
+  height: 50px;
+}
