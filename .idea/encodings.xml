@@ -13,11 +13,8 @@
     <file url="file://$PROJECT_DIR$/app/templates/application.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/login.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/share.hbs" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/templates/share.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bower.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/package.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server/mocks/share.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server/mocks/share.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server/mocks/shares.js" charset="UTF-8" />
   </component>
 </project>
