@@ -1,4 +1,16 @@
 <div class="container">
-    <div class="Userbar row">Userbar</div>
-    {{outlet}}
+    <div class="Userbar row">
+        <img src="assets/logo.png">
+    </div>
+    <div class="Searchbar row">
+        <div class="Search col-md-4 col-md-offset-4">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go</button>
+            </span>
+            </div>
+        </div>
+    </div>
+  {{outlet}}
 </div>
