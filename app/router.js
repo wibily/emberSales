@@ -7,7 +7,7 @@ var Router = Ember.Router.extend({
 
 Router.map(function () {
   this.route('shares');
-  this.route('share', {path: "/share/:share_uuid"});
+  this.route('share', {path: "/share/:shareUuid"});
 
 });
 
