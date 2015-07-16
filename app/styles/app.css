@@ -15,5 +15,12 @@
 .Searchbar .Search{
   margin-top:10px;
 }
+.ShareList{
+  padding-top:10px;
+}
+
+.ShareList .thumbnail{
+  word-wrap: break-word;
+}
 
 

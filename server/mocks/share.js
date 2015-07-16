@@ -1,15 +1,16 @@
-module.exports = function(app) {
+module.exports = function (app) {
   var express = require('express');
   var sharesRouter = express.Router();
 
-  sharesRouter.get('/:id', function(req, res) {
+  sharesRouter.get('/:id', function (req, res) {
     res.send({
-      "name": "The AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA team",
+      "name": "Aaa",
       "status": "COMPLETE",
-      "uuid": "102f-3b2b-b087-4a19-8632-a62a-6fa3-2b99",
-      "createdDate": "2014-12-03T23:09:45Z",
+      "uuid": "62cd-cf62-8f5e-4a2c-b69a-5e10-2afc-428c",
       "access": "READ",
-      "modifiedDate": "2015-06-03T04:29:25Z",
+      "createdDate": "2015-06-09T06:27:59Z",
+      "modifiedDate": "2015-07-08T05:06:05Z",
+      "endOnDate": "2016-07-07T22:45:00Z",
       "modifiedByUuid": "3136-c8d8-72d0-4c98-8b73-543e-f676-3cb7",
       "organisationUuid": "fcf7-3e71-73ba-4d25-9e6b-79b5-00e4-0793",
       "ownerUuid": "3136-c8d8-72d0-4c98-8b73-543e-f676-3cb7",
@@ -17,34 +18,34 @@ module.exports = function(app) {
       "endOnDateSpecified": false,
       "model": "shares",
       "_links": {
-        "self": {"href": "/rest/shares/102f-3b2b-b087-4a19-8632-a62a-6fa3-2b99"},
-        "createAsset": {"href": "/rest/shares/102f-3b2b-b087-4a19-8632-a62a-6fa3-2b99/assets"},
-        "participants": {"href": "/rest/shares/102f-3b2b-b087-4a19-8632-a62a-6fa3-2b99/participants"},
+        "self": {"href": "/rest/shares/62cd-cf62-8f5e-4a2c-b69a-5e10-2afc-428c"},
+        "createAsset": {"href": "/rest/shares/62cd-cf62-8f5e-4a2c-b69a-5e10-2afc-428c/assets"},
+        "participants": {"href": "/rest/shares/62cd-cf62-8f5e-4a2c-b69a-5e10-2afc-428c/participants"},
         "batchParticipants": {"href": "/rest/participants/batch"},
         "getParticipants": {
-          "href": "/rest/shares/102f-3b2b-b087-4a19-8632-a62a-6fa3-2b99/participants?offset={offset}&length={length}",
+          "href": "/rest/shares/62cd-cf62-8f5e-4a2c-b69a-5e10-2afc-428c/participants?offset={offset}&length={length}",
           "templated": "true"
         },
         "children": {
-          "href": "/rest/shares/102f-3b2b-b087-4a19-8632-a62a-6fa3-2b99/assets?parentUuid=102f-3b2b-b087-4a19-8632-a62a-6fa3-2b99&sort={sort}&offset={offset}&length={length}",
+          "href": "/rest/shares/62cd-cf62-8f5e-4a2c-b69a-5e10-2afc-428c/assets?parentUuid=62cd-cf62-8f5e-4a2c-b69a-5e10-2afc-428c&sort={sort}&offset={offset}&length={length}",
           "templated": "true"
         },
-        "comments": {"href": "/rest/shares/102f-3b2b-b087-4a19-8632-a62a-6fa3-2b99/comments"},
-        "rename": {"href": "/rest/shares/102f-3b2b-b087-4a19-8632-a62a-6fa3-2b99/name"},
-        "changeOwner": {"href": "/rest/shares/102f-3b2b-b087-4a19-8632-a62a-6fa3-2b99/owner"},
-        "setSummary": {"href": "/rest/shares/102f-3b2b-b087-4a19-8632-a62a-6fa3-2b99/summary"},
+        "comments": {"href": "/rest/shares/62cd-cf62-8f5e-4a2c-b69a-5e10-2afc-428c/comments"},
+        "rename": {"href": "/rest/shares/62cd-cf62-8f5e-4a2c-b69a-5e10-2afc-428c/name"},
+        "changeOwner": {"href": "/rest/shares/62cd-cf62-8f5e-4a2c-b69a-5e10-2afc-428c/owner"},
+        "setSummary": {"href": "/rest/shares/62cd-cf62-8f5e-4a2c-b69a-5e10-2afc-428c/summary"},
         "owner": {"href": "/rest/users/3136-c8d8-72d0-4c98-8b73-543e-f676-3cb7"},
-        "acl": {"href": "/rest/acls/d122-d283-511b-4ce2-bdeb-05df-7162-49cb"},
-        "threads": {"href": "/rest/threads?shareUuid=102f-3b2b-b087-4a19-8632-a62a-6fa3-2b99"},
-        "metadata": {"href": "/rest/shares/102f-3b2b-b087-4a19-8632-a62a-6fa3-2b99/metadata"},
+        "acl": {"href": "/rest/acls/92bf-becb-1cea-444a-aaf5-3227-06d7-76cf"},
+        "threads": {"href": "/rest/threads?shareUuid=62cd-cf62-8f5e-4a2c-b69a-5e10-2afc-428c"},
+        "metadata": {"href": "/rest/shares/62cd-cf62-8f5e-4a2c-b69a-5e10-2afc-428c/metadata"},
         "actions": {"href": "/rest/actions?userUuid={userUuid}&shareUuid={shareUuid}", "templated": "true"},
         "modifiedBy": {"href": "/rest/users/3136-c8d8-72d0-4c98-8b73-543e-f676-3cb7"}
       },
       "_embedded": {
         "owner": {
-          "name": "william THE LLLLLLLLLLLLLLOOOOOONNNNGGGG cheung",
-          "email": "william.cheung@objective.com",
+          "name": "<b>william</b> cheung",
           "uuid": "3136-c8d8-72d0-4c98-8b73-543e-f676-3cb7",
+          "email": "william.cheung@objective.com",
           "model": "userinfos",
           "_links": {
             "self": {"href": "/rest/userinfos/3136-c8d8-72d0-4c98-8b73-543e-f676-3cb7"},
@@ -60,8 +61,8 @@ module.exports = function(app) {
           "domains": [],
           "features": ["ADMIN", "CREATE_SHARE", "REPORTING", "VERSIONING"],
           "timezone": "Australia/Sydney",
-          "accountName": "A team",
           "uuid": "fcf7-3e71-73ba-4d25-9e6b-79b5-00e4-0793",
+          "accountName": "A team",
           "membershipCount": -2,
           "suspended": false,
           "selfStartedTrial": false,
@@ -158,9 +159,9 @@ module.exports = function(app) {
           }
         },
         "modifiedBy": {
-          "name": "william THE LLLLLLLLLLLLLLOOOOOONNNNGGGG cheung",
-          "email": "william.cheung@objective.com",
+          "name": "<b>william</b> cheung",
           "uuid": "3136-c8d8-72d0-4c98-8b73-543e-f676-3cb7",
+          "email": "william.cheung@objective.com",
           "model": "userinfos",
           "_links": {
             "self": {"href": "/rest/userinfos/3136-c8d8-72d0-4c98-8b73-543e-f676-3cb7"},
@@ -173,6 +174,5 @@ module.exports = function(app) {
       }
     });
   });
-
   app.use('/rest/shares', sharesRouter);
-};
+}
