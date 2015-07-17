@@ -1,0 +1,12 @@
+{{#each model as |asset|}}
+    <div class="col-md-3">
+        <a href="//cucina105.com.au/wp-content/uploads/2013/08/Cucina_105_Menu.pdf" download class="thumbnail">
+        {{#if asset.extension}}
+          <img src="assets/blank.png">
+        {{else}}
+          <img src="assets/folder.jpg">
+        {{/if}}
+        {{asset.name}}
+        </a>
+    </div>
+{{/each}}

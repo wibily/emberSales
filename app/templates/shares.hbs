@@ -1,0 +1,10 @@
+<div class="ShareList">
+  {{#each model as |share|}}
+      <div class="col-md-3">
+          {{#link-to 'share.assets' share.shareUuid class='thumbnail'}}
+            <img src="assets/shareIcon.png">
+            {{share._data._embedded.share.name}}
+          {{/link-to}}
+      </div>
+  {{/each}}
+</div>

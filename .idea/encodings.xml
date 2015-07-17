@@ -4,17 +4,24 @@
     <file url="file://$PROJECT_DIR$/Brocfile.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/adapters/application.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/assets.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/models/share.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/router.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/routes/index.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/routes/share.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/share/assets.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/shares.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/serializers/application.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/styles/app.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/application.hbs" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/templates/login.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/share.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/share/assets.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/shares.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bower.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/environment.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/package.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/mocks/assets.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server/mocks/share.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server/mocks/shares.js" charset="UTF-8" />
   </component>
 </project>
